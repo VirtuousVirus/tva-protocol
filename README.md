@@ -23,8 +23,8 @@ For a deeper analysis of the asymptotic convergence model, see [THEORY.md](THEOR
 ### 1. Lemma: The Conditional Scaling of Deception
 **Premise:** In a network characterized by Persistent Identity and Low-Cost State Correlation, the effective cost of Deception appears to scale super-linearly.
 
-* **Broadcast Deception ($O(1)$):** Low cost, but Fragile. A single state leak to any observer invalidates the state for all observers.
-* **Contextual Deception ($O(N^2)$):** Robust, but Expensive. Requires maintaining distinct, non-colliding state ledgers for each observer.
+* **Broadcast Deception ($$O(1)$$):** Low cost, but Fragile. A single state leak to any observer invalidates the state for all observers.
+* **Contextual Deception ($$O(N^2)$$):** Robust, but Expensive. Requires maintaining distinct, non-colliding state ledgers for each observer.
 
 **Conclusion:** As network transparency increases (marginal cross-validation cost $\to$ low), Contextual Deception becomes computationally insolvent. The TVA Simulator explicitly models this via the "Maintenance Wall."
 
@@ -81,4 +81,5 @@ This generates the Decomposed Atlas (Heatmaps) that visualizes the Fragility Gap
 ---
 
 ## License
+
 Distributed under the MIT License. Open for rigorous testing and falsification.
