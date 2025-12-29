@@ -5,7 +5,7 @@
 **License:** MIT
 
 ## Abstract
-This project investigates a specific thermodynamic hypothesis: that in multi-agent systems with high connectivity and observability, the effective cost of maintaining divergent states appears to scale super-linearly (e.g., $O(N^2)$), while **consistent strategies avoid that scaling burden**.
+This project investigates a specific thermodynamic hypothesis: that in multi-agent systems with high connectivity and observability, the effective cost of maintaining divergent states appears to scale super-linearly (e.g., $$O(N^2)$$), while **consistent strategies avoid that scaling burden**.
 
 If this asymmetry holds, it implies the existence of a "Veracity Attractor"—an operational region in state space where minimizing divergence is energetically dominant over mimicry.
 
@@ -83,3 +83,4 @@ This generates the Decomposed Atlas (Heatmaps) that visualizes the Fragility Gap
 ## License
 
 Distributed under the MIT License. Open for rigorous testing and falsification.
+
